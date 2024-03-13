@@ -5,7 +5,6 @@ public class GardeningPlanner_AllieYoung {
     static int[] avgRain = {5, 3, 3, 1, 1, 0, 0, 0, 0, 1, 3, 4};
     static int minTemp; static int maxTemp; static int minRain; static int[] plantGrowth = new int[12]; static int[] plantHeight = new int[12];
 
-
     public static void main(String[] args) {
         welcome();
         getInputs();
